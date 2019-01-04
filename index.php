@@ -5,6 +5,7 @@
  * Date: 1/4/2019
  * Time: 10:22 AM
  */
+include "functions.php";
 ?>
 <!doctype html>
 <html lang="en">
@@ -21,17 +22,9 @@
     <?php
         $numbers = array(7,9,8,9,8,8,6);
 
-        function printer($array){
-            for($i = 0; $i < sizeof($array);$i++){
-                echo $array[$i];
-                if($i != sizeof($array)-1){
-                    echo ", ";
-                }
-            }
-
-        }
-
         printer($numbers);
+        echo "<br>";
+        echo largest($numbers);
 
     ?>
 </body>
