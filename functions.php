@@ -17,3 +17,6 @@ function printer($array){
 function largest($array){
     return max($array);
 }
+function average($array){
+    return (array_sum($array) / sizeof($array));
+}

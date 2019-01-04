@@ -25,6 +25,8 @@ include "functions.php";
         printer($numbers);
         echo "<br>";
         echo largest($numbers);
+        echo "<br>";
+        echo average($numbers);
 
     ?>
 </body>
