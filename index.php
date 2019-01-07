@@ -27,6 +27,8 @@ include "functions.php";
         echo largest($numbers);
         echo "<br>";
         echo average($numbers);
+        echo "<br>";
+        echo removeDups($numbers);
 
     ?>
 </body>
