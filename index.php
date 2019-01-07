@@ -17,18 +17,20 @@ include "functions.php";
     <title>Document</title>
 </head>
 <body>
-    <h1>Pair Programming 1</h1>
+    <h1>Pair Program 1</h1>
 
     <?php
         $numbers = array(7,9,8,9,8,8,6);
 
         printer($numbers);
         echo "<br>";
-        echo largest($numbers);
+        echo "Largest: " . largest($numbers);
         echo "<br>";
-        echo average($numbers);
+        echo "Average: " . average($numbers);
         echo "<br>";
-        echo removeDups($numbers);
+        echo "Remove Dupes: " . removeDups($numbers);
+        echo "<br>";
+        echo "Distribution: " . distribution($numbers);
 
     ?>
 </body>
