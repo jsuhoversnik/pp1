@@ -20,3 +20,10 @@ function largest($array){
 function average($array){
     return (array_sum($array) / sizeof($array));
 }
+function removeDups($array){
+    echo "[" . implode(", ", array_unique($array)) . "]";
+
+}
+function distribution(){
+
+}
